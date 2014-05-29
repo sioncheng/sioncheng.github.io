@@ -2,17 +2,18 @@
 <html>
   <head>
     <title>welcome to my git hub pages</title>
-    <script type="text/script" language="javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <head>
+    <script type="text/javascript" language="javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  </head>
   <body>
     <h1>Git hub pages is cool.</h1>
-    <span id="span_time"></span>
+    <div id="span_time">ff</div>
     <script language="javascript">
       var $ = jQuery;
       var displayTime = function(){
-        $('span_time').text((new Date()).toLocaleString());
+        $('#span_time').text((new Date()).toLocaleString());
       }
       setInterval(displayTime,100);
+      //i have tried much times to make this work. :(
     </script>
   </body>
 </html>
